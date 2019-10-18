@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/AliKhanafer7/TakeMe#readme",
   "dependencies": {
+    "firebase": "^7.2.1",
     "webpack": "^4.41.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.9"
   }
 }
