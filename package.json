@@ -1,0 +1,22 @@
+{
+  "name": "takeme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AliKhanafer7/TakeMe.git"
+  },
+  "author": "Ali Khanafer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AliKhanafer7/TakeMe/issues"
+  },
+  "homepage": "https://github.com/AliKhanafer7/TakeMe#readme",
+  "dependencies": {
+    "webpack": "^4.41.2"
+  }
+}
