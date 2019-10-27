@@ -211,7 +211,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var map = __webpack_require__(/*! ./maps.js */ \"./resources/javascript/maps.js\")\nvar firebase = __webpack_require__(/*! ./firebase.js */ \"./resources/javascript/firebase.js\")\n\n\nfunction initMap(){\n  map.initMap();\n}\n\nfunction initFirebase(){\n  firebase.initFirebase();\n}\n\nfunction writeToDb(){\n  firebase.writeToDb();\n}\n\nwindow.initMap = initMap;\nwindow.writeToDb = writeToDb;\nwindow.initFirebase = initFirebase;\n\n//# sourceURL=webpack:///./resources/javascript/index.js?");
+eval("var map = __webpack_require__(/*! ./maps.js */ \"./resources/javascript/maps.js\")\nvar firebase = __webpack_require__(/*! ./firebase.js */ \"./resources/javascript/firebase.js\")\n\n$(document).ready(function(){\n  map.initMap();\n  firebase.initFirebase();\n})\n\n\nfunction writeToDb(){\n  firebase.writeToDb();\n}\n\nwindow.writeToDb = writeToDb;\n\n//# sourceURL=webpack:///./resources/javascript/index.js?");
 
 /***/ }),
 
